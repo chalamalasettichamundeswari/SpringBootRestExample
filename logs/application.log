@@ -1,0 +1,8 @@
+2022-03-08 00:16:43.963  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 00:16:43.976  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@5261ec9{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2022-03-08 00:16:43.976  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2022-03-08 00:16:43.978  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-03-08 00:16:43.978  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2fe2965c{application,/studentapi,[file:///private/var/folders/_d/j9m8y_n11f58jsznls6bh_h40000gp/T/jetty-docbase.8082.3678865375274144070/],STOPPED}
+2022-03-08 00:16:43.983  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-08 00:16:43.985  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-08 00:16:43.993  INFO 66610 --- [RMI TCP Connection(60)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
