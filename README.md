@@ -1,5 +1,5 @@
 # SpringBootRestExample
-Sample REST CRUD API, REST Client with Spring Boot, Mysql, JPA.Includes profiles, logging, Health checks and metrics, Spring Security   
+Sample REST CRUD API, REST Client with Spring Boot, Mysql, JPA.Includes profiles, logging, Health checks and metrics, Spring Security      
 Steps to Setup: 
 1. Clone the application https: //github.com/chalamalasettichamundeswari/SpringBootRestExample.git 
 2. Create Mysql database create database employee_database 
@@ -10,23 +10,26 @@ Steps to Setup:
    3. java - jar target / studentrestapi - 0.0 .1 - SNAPSHOT.jar
 The app will start running at http://localhost:8080 
   
-Explore Rest APIs:  The app defines following CRUD APIs. 
+Explore Rest APIs:  
+The app defines following CRUD APIs. 
 GET /studentapi/student/  
 POST /studentapi/student/  
 GET /studentapi/student/{id}  
 PUT /studentapi/student/ 
 DELETE /studentapi/student/{id}  
-profiles: Two ways to setup: 
-1.open src / main / resources / application.properties - spring.profiles.active=dev/testing 
-2.right click on the application.properties 
-  click "run as" go to argumnets tab in the override properties type "-Dspring.profiles.active=dev/testing" 
+
+profiles:   
+Two ways to setup:   
+1.Open src / main / resources / application.properties - spring.profiles.active=dev/testing  
+2.Right click on the application.properties 
+  click "run as" go to arguments tab in the override properties type "-Dspring.profiles.active=dev/testing" 
   
-Health checks and metrics: 
+Health checks and metrics:   
 1.Add this dependency:  
-  spring-boot-starter-actuator 
-2.To expose all endpoints: 
-  open src / main / resources / application.properties - management.endpoints.web.exposure.include=*  
+   spring-boot-starter-actuator   
+2.To expose all endpoints:   
+   open src / main / resources / application.properties - management.endpoints.web.exposure.include=*  
   
-Spring Security 
-1.Add this dependency: 
-  spring-boot-starter-security
+Spring Security   
+1.Add this dependency:   
+   spring-boot-starter-security
