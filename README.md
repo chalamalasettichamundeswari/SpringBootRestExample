@@ -2,9 +2,8 @@
 Sample REST CRUD API, REST Client with Spring Boot, Mysql, JPA.Includes profiles, logging, Health checks and metrics, Spring Security      
 Steps to Setup: 
 1. Clone the application https: //github.com/chalamalasettichamundeswari/SpringBootRestExample.git 
-2. Create Mysql database create database employee_database 
-3. Change mysql url, username and password and context path as per your installation open src / main / resources / application.properties - change spring.datasource.url, spring.datasource.username and spring.datasource.password server.servlet.context-path as per your mysql installation 
-4. Build and run the app using Spring Boot App using maven install outide the application(Check target, snapshot.jar is getting or not) 
+2. Change mysql url, username and password and context path as per your installation open src / main / resources / application.properties - change spring.datasource.url, spring.datasource.username and spring.datasource.password server.servlet.context-path as per your mysql installation 
+3. Build and run the app using Spring Boot App using maven install outide the application(Check target, snapshot.jar is getting or not) 
    1. open terminal go to the project directory(using cd command). 
    2. use pwd to know whether you are in present directory or not.
    3. java - jar target / studentrestapi - 0.0 .1 - SNAPSHOT.jar
